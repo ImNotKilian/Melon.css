@@ -1,0 +1,28 @@
+/* 
+	Melon.css: https://github.com/sammwyy/meloncss
+	2019 (C) Sammwy | Licence: MIT & Open-Source
+*/
+
+/* Main */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	color: #232323;
+	text-align: left;
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	font-size: 1rem;
+	line-height: normal;
+	font-family: "ubuntu-regular", sans-serif;
+	font-weight: initial;
+	-webkit-font-smoothing: antialiased;
+}
+
+body, html {
+	overflow-x: hidden;
+	padding-right: 0 !important;
+}

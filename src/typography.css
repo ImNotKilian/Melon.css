@@ -1,0 +1,184 @@
+/* 
+	Melon.css: https://github.com/sammwyy/meloncss
+	2019 (C) Sammwy | Licence: MIT & Open-Source
+*/
+
+/* Typography */
+
+/* Font Size */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, blockquote, .blockquote {
+	margin-bottom: .5rem;
+	font-weight: 500;
+	color: inherit;
+	line-height: 1.4;
+}
+
+.h1, h1 {
+	font-size: 2.5rem;
+}
+
+.h2, h2 {
+	font-size: 1.875rem;
+}
+
+.h3, h3 {
+	font-size: 1.56rem;
+}
+
+.h4, h4 {
+	font-size: 1.25rem;
+}
+
+.h5, h5 {
+	font-size: 1rem;
+}
+
+.h6, h6 {
+	font-size: .875rem;
+}
+
+p {
+	margin-top: 0;
+	font-size: 14px;
+	line-height: 1.82;
+	margin-bottom: 1rem;
+	word-break: break-word;
+}
+
+.lead {
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+
+.blockquote, blockquote  {
+	margin-bottom: 1rem;
+	font-size: 1.105rem;
+	padding: 1.25rem;
+}
+
+.small, small {
+	font-weight: 400;
+	font-size: 13px;
+}
+
+span, .span {
+	color: #a7afb7 !important;
+	font-size: 80%;
+	font-weight: 400;
+}
+
+h1.span, h2.span, h3.span, h1 > span, h2 > span, h3 > span {
+	color: #a7afb7 !important;
+	font-size: 60%;
+	font-weight: 400;
+}
+
+/* Colors */
+.text-primary {
+	color: #464DEE !important;
+}
+
+.text-success {
+	color: #31ce36!important;
+}
+
+.text-danger {
+	color: #EE5B5B !important;
+}
+
+.text-warning {
+	color: #FFAD46 !important;
+}
+
+.text-info {
+	color: #0ad7f7 !important;
+}
+
+.text-muted {
+	color: #5b646e !important;
+}
+
+.text-white {
+	color: white !important;
+}
+
+/* Font Backgrounds */
+.bg-primary {
+	background-color: #464DEE !important;
+}
+
+.bg-success {
+	background-color: #31ce36!important;
+}
+
+.bg-danger {
+	background-color: #EE5B5B !important;
+}
+
+.bg-warning {
+	background-color: #FFAD46 !important;
+}
+
+.bg-info {
+	background-color: #0ad7f7 !important;
+}
+
+.bg-muted {
+	background-color: #5b646e !important;
+}
+
+/* Text Decoration */
+.bold {
+	font-weight: 700 !important;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.overline {
+	text-decoration: overline;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.duoline {
+	text-decoration: overline underline;
+}
+
+.fullline {
+	text-decoration: line-through overline underline;
+}
+
+/* Other components */
+address, .address {
+	font-style: normal;
+}
+
+address p {
+	margin-bottom: 0;
+}
+
+mark, .mark {
+	padding: 0.2em;
+	background-color: #fcd53b;
+	color: black;
+}
+
+/* Lists */
+ul, ol, dl {
+	padding-left: 1rem;
+	font-size: 1rem;
+	margin-top: 9;
+	margin-bottom: 1rem;
+}
+
+ul li, ol li, dl li {
+	line-height: 1.8;
+}

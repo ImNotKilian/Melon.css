@@ -1,0 +1,120 @@
+/* 
+	Melon.css: https://github.com/sammwyy/meloncss
+	2019 (C) Sammwy | Licence: MIT & Open-Source
+*/
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* Backgrounds */
+.sb-bg-black::-webkit-scrollbar-track {
+  background: black; 
+}
+
+.sb-bg-white::-webkit-scrollbar-track {
+  background: white; 
+}
+
+.sb-bg-red::-webkit-scrollbar-track {
+  background: red; 
+}
+
+.sb-bg-green::-webkit-scrollbar-track {
+  background: green; 
+}
+
+.sb-bg-blue::-webkit-scrollbar-track {
+  background: blue; 
+}
+
+.sb-bg-yellow::-webkit-scrollbar-track {
+  background: yellow; 
+}
+
+.sb-bg-orange::-webkit-scrollbar-track {
+  background: orange; 
+}
+
+.sb-bg-purple::-webkit-scrollbar-track {
+  background: purple; 
+}
+
+.sb-bg-pink::-webkit-scrollbar-track {
+  background: pink; 
+}
+
+/* scroll */
+.sb-sc-white::-webkit-scrollbar-thumb {
+  background: white; 
+}
+
+.sb-sc-black::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+.sb-sc-red::-webkit-scrollbar-thumb {
+  background: red; 
+}
+
+.sb-sc-green::-webkit-scrollbar-thumb {
+  background: green; 
+}
+
+.sb-sc-blue::-webkit-scrollbar-thumb {
+  background: blue; 
+}
+
+.sb-sc-yellow::-webkit-scrollbar-thumb {
+  background: yellow; 
+}
+
+.sb-sc-orange::-webkit-scrollbar-thumb {
+  background: orange; 
+}
+
+.sb-sc-purple::-webkit-scrollbar-thumb {
+  background: purple; 
+}
+
+.sb-sc-pink::-webkit-scrollbar-thumb {
+  background: pink; 
+}
+
+/* black over white */
+.sb-bw::-webkit-scrollbar {
+  width: 12px;
+}
+
+.sb-bw::-webkit-scrollbar-track {
+  background: white; 
+}
+
+.sb-bw::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+.sb-bw
+
+/* Global details */
+.sb-rounded::-webkit-scrollbar-track, .sb-rounded::-webkit-scrollbar-thumb  {
+	border-radius: 50px;
+}
+
+/* Size */
+.sb-small::-webkit-scrollbar {
+	width: 8px;
+}
+
+.sb-big::-webkit-scrollbar {
+	width: 18px;
+}
+
+.sb-bigest::-webkit-scrollbar {
+	width: 24px;
+}

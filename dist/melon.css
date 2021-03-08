@@ -1,0 +1,602 @@
+/* 
+	Melon.css: https://github.com/sammwyy/meloncss
+	2019 (C) Sammwy | Licence: MIT & Open-Source
+*/
+
+/* Main */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	color: #232323;
+	text-align: left;
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	font-size: 1rem;
+	line-height: normal;
+	font-family: "ubuntu-regular", sans-serif;
+	font-weight: initial;
+	-webkit-font-smoothing: antialiased;
+}
+
+body, html {
+	overflow-x: hidden;
+	padding-right: 0 !important;
+}
+
+/* Typography */
+
+/* Font Size */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, blockquote, .blockquote {
+	margin-bottom: .5rem;
+	font-weight: 500;
+	color: inherit;
+	line-height: 1.4;
+}
+
+.h1, h1 {
+	font-size: 2.5rem;
+}
+
+.h2, h2 {
+	font-size: 1.875rem;
+}
+
+.h3, h3 {
+	font-size: 1.56rem;
+}
+
+.h4, h4 {
+	font-size: 1.25rem;
+}
+
+.h5, h5 {
+	font-size: 1rem;
+}
+
+.h6, h6 {
+	font-size: .875rem;
+}
+
+p {
+	margin-top: 0;
+	font-size: 14px;
+	line-height: 1.82;
+	margin-bottom: 1rem;
+	word-break: break-word;
+}
+
+.lead {
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+
+.blockquote, blockquote  {
+	margin-bottom: 1rem;
+	font-size: 1.105rem;
+	padding: 1.25rem;
+}
+
+.small, small {
+	font-weight: 400;
+	font-size: 13px;
+}
+
+span, .span {
+	color: #a7afb7 !important;
+	font-size: 80%;
+	font-weight: 400;
+}
+
+h1.span, h2.span, h3.span, h1 > span, h2 > span, h3 > span {
+	color: #a7afb7 !important;
+	font-size: 60%;
+	font-weight: 400;
+}
+
+/* Colors */
+.text-primary {
+	color: #464DEE !important;
+}
+
+.text-success {
+	color: #31ce36!important;
+}
+
+.text-danger {
+	color: #EE5B5B !important;
+}
+
+.text-warning {
+	color: #FFAD46 !important;
+}
+
+.text-info {
+	color: #0ad7f7 !important;
+}
+
+.text-muted {
+	color: #5b646e !important;
+}
+
+.text-white {
+	color: white !important;
+}
+
+/* Font Backgrounds */
+.bg-primary {
+	background-color: #464DEE !important;
+}
+
+.bg-success {
+	background-color: #31ce36!important;
+}
+
+.bg-danger {
+	background-color: #EE5B5B !important;
+}
+
+.bg-warning {
+	background-color: #FFAD46 !important;
+}
+
+.bg-info {
+	background-color: #0ad7f7 !important;
+}
+
+.bg-muted {
+	background-color: #5b646e !important;
+}
+
+/* Text Decoration */
+.bold {
+	font-weight: 700 !important;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.overline {
+	text-decoration: overline;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.duoline {
+	text-decoration: overline underline;
+}
+
+.fullline {
+	text-decoration: line-through overline underline;
+}
+
+/* Other components */
+address, .address {
+	font-style: normal;
+}
+
+address p {
+	margin-bottom: 0;
+}
+
+mark, .mark {
+	padding: 0.2em;
+	background-color: #fcd53b;
+	color: black;
+}
+
+/* Lists */
+ul, ol, dl {
+	padding-left: 1rem;
+	font-size: 1rem;
+	margin-top: 9;
+	margin-bottom: 1rem;
+}
+
+ul li, ol li, dl li {
+	line-height: 1.8;
+}
+
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* Backgrounds */
+.sb-bg-black::-webkit-scrollbar-track {
+  background: black; 
+}
+
+.sb-bg-white::-webkit-scrollbar-track {
+  background: white; 
+}
+
+.sb-bg-red::-webkit-scrollbar-track {
+  background: red; 
+}
+
+.sb-bg-green::-webkit-scrollbar-track {
+  background: green; 
+}
+
+.sb-bg-blue::-webkit-scrollbar-track {
+  background: blue; 
+}
+
+.sb-bg-yellow::-webkit-scrollbar-track {
+  background: yellow; 
+}
+
+.sb-bg-orange::-webkit-scrollbar-track {
+  background: orange; 
+}
+
+.sb-bg-purple::-webkit-scrollbar-track {
+  background: purple; 
+}
+
+.sb-bg-pink::-webkit-scrollbar-track {
+  background: pink; 
+}
+
+/* scroll */
+.sb-sc-white::-webkit-scrollbar-thumb {
+  background: white; 
+}
+
+.sb-sc-black::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+.sb-sc-red::-webkit-scrollbar-thumb {
+  background: red; 
+}
+
+.sb-sc-green::-webkit-scrollbar-thumb {
+  background: green; 
+}
+
+.sb-sc-blue::-webkit-scrollbar-thumb {
+  background: blue; 
+}
+
+.sb-sc-yellow::-webkit-scrollbar-thumb {
+  background: yellow; 
+}
+
+.sb-sc-orange::-webkit-scrollbar-thumb {
+  background: orange; 
+}
+
+.sb-sc-purple::-webkit-scrollbar-thumb {
+  background: purple; 
+}
+
+.sb-sc-pink::-webkit-scrollbar-thumb {
+  background: pink; 
+}
+
+/* black over white */
+.sb-bw::-webkit-scrollbar {
+  width: 12px;
+}
+
+.sb-bw::-webkit-scrollbar-track {
+  background: white; 
+}
+
+.sb-bw::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+.sb-bw
+
+/* Global details */
+.sb-rounded::-webkit-scrollbar-track, .sb-rounded::-webkit-scrollbar-thumb  {
+	border-radius: 50px;
+}
+
+/* Size */
+.sb-small::-webkit-scrollbar {
+	width: 8px;
+}
+
+.sb-big::-webkit-scrollbar {
+	width: 18px;
+}
+
+.sb-bigest::-webkit-scrollbar {
+	width: 24px;
+}
+
+/* Forms */
+input, button, select, optgroup, textarea {
+	margin: 0;
+	font-family: inherit;
+}
+
+button, input {
+	overflow: visible;
+}
+
+button, select {
+	text-transform: none;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+	-webkit-appearance: button;
+}
+
+/* Buttons */
+button {
+	display: inline-block;
+	color: #555;
+	text-align: center;
+	vertical-align: middle;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding: 1rem 1.75rem;
+	border-radius: 0.1875rem;
+	margin-bottom: 15px !important;
+	white-space: nowrap;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	font-size: 0.875rem;
+	line-height: 1;
+	font-weight: 400;
+}
+
+button.active.focus, button.active:focus, button.focus, button:active.focus, button:active:focus, button:focus, button, button:active, button:checked, button:focus, button:hover, button:visited {
+    outline: 0;
+    outline-offset: 0;
+}
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-primary {
+	background-color: #464DEE;
+	color: white;
+}
+
+.btn-primary:hover {
+	background-color: transparent;
+	color: #464DEE;
+	border-color: #464DEE;
+}
+
+.btn-secondary {
+	background-color: #3b579d;
+	color: white;
+}
+
+.btn-secondary:hover {
+	background-color: transparent;
+	color: #3b579d;
+	border-color: #3b579d;
+}
+
+.btn-success {
+	background-color: #31ce36;
+	color: white;
+}
+
+.btn-success:hover {
+	background-color: transparent;
+	color: #31ce36;
+	border-color: #31ce36;
+}
+
+.btn-info {
+	background-color: #0ad7f7;
+	color: white;
+}
+
+.btn-info:hover {
+	background-color: transparent;
+	color: #0ad7f7;
+	border-color: #0ad7f7;
+}
+
+.btn-warning {
+	background-color: #FFAD46;
+	color: white;
+}
+
+.btn-warning:hover {
+	background-color: transparent;
+	color: #FFAD46;
+	border-color: #FFAD46;
+}
+
+.btn-danger {
+	background-color: #ff4747;
+	color: white;
+}
+
+.btn-danger:hover {
+	background-color: transparent;
+	color: #ff4747;
+	border-color: #ff4747;
+}
+
+.btn-muted {
+	background-color: #5b646e;
+	color: white;
+}
+
+.btn-muted:hover {
+	background-color: transparent;
+	color: #5b646e;
+	border-color: #5b646e;
+}
+
+.btn-inverted {
+	border-color: #232323;
+	color: #232323;
+}
+
+.btn-inverted:hover {
+	background-color: #232323;
+	color: white;
+}
+
+.btn-inverted.btn-primary {
+	background-color: transparent;
+	color: #464DEE;
+	border-color: #464DEE;
+}
+
+.btn-inverted.btn-primary:hover {
+	background-color: #464DEE;
+	color: white;
+}
+
+.btn-inverted.btn-secondary {
+	background-color: transparent;
+	color: #3b579d;
+	border-color: #3b579d;
+}
+
+.btn-inverted.btn-secondary:hover {
+	background-color: #3b579d;
+	color: white;
+}
+
+.btn-inverted.btn-inverted.btn-success {
+	background-color: transparent;
+	color: #31ce36;
+	border-color: #31ce36;
+}
+
+.btn-inverted.btn-success:hover {
+	background-color: #31ce36;
+	color: white;
+}
+
+.btn-inverted.btn-info {
+	background-color: transparent;
+	color: #0ad7f7;
+	border-color: #0ad7f7;
+}
+
+.btn-inverted.btn-info:hover {
+	background-color: #0ad7f7;
+	color: white;
+}
+
+.btn-inverted.btn-warning {
+	background-color: transparent;
+	color: #FFAD46;
+	border-color: #FFAD46;
+}
+
+.btn-inverted.btn-warning:hover {
+	background-color: #FFAD46;
+	color: white;
+}
+
+.btn-inverted.btn-danger {
+	background-color: transparent;
+	color: #ff4747;
+	border-color: #ff4747;
+}
+
+.btn-inverted.btn-danger:hover {
+	background-color: #ff4747;
+	color: white;
+}
+
+.btn-inverted.btn-muted {
+	background-color: transparent;
+	color: #5b646e;
+	border-color: #5b646e;
+}
+
+.btn-inverted.btn-muted:hover {
+	background-color: #5b646e;
+	color: white;
+}
+
+/* Sizes */
+.btn-smallest {
+	font-size: 11px;
+    padding: 7px 13px;
+}
+
+.btn-small {
+    font-size: 15px;
+    padding: 11px 17px;
+}
+
+.btn-large {
+	font-size: 22px;
+    border-radius: 3px;
+    padding: 20px 40px;
+    font-weight: 400;
+}
+
+.btn-largest {
+	font-size: 26px;
+    border-radius: 3px;
+    padding: 25px 38px;
+    font-weight: 400;
+}
+
+/* Styles */
+.btn-rounded {
+	border-radius: 100px!important;
+}
+
+.btn-circle {
+    border-radius: 50px;
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    font-size: 35px;
+}
+
+.btn-circle.btn-smallest {
+	width: 50px;
+    height: 50px;
+	font-size: 25px;
+}
+
+.btn-circle.btn-small {
+   font-size: 30px;
+   width: 60px;
+   height: 60px;
+}
+
+.btn-circle.btn-large {
+	font-size: 40px;
+	width: 80px;
+    height: 80px;
+}
+
+.btn-circle.btn-largest {
+	font-size: 45px;
+	width: 90px;
+    height: 90px;
+}
